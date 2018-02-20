@@ -1,13 +1,7 @@
-# test# test# test# test
+def get_age(year_of_birth):
+    return 2018 - year_of_birth
 
 
+user_year_of_birth = int(input('What year was you born?'))
 
-
-def greet(name):
-	"""This function greets to
-	the person passed in as
-	parameter"""
-	print("Hello, " + name + ". Good morning!")
-
-
-greet('Paul')
+print(f"You are {get_age(user_year_of_birth)} years old.")
